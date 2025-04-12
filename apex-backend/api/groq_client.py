@@ -11,7 +11,7 @@ class GroqClient:
     def __init__(self, model_name: str = "llama-3.2-90b-vision-preview"):
         self.model_name = model_name
         load_dotenv()
-        api_key = "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"
+        api_key = "token"
         if not api_key:
             raise ValueError("GROQ_API_KEY environment variable not set")
         
